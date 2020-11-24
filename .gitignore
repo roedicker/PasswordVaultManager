@@ -1,0 +1,5 @@
+*.suo
+*.user
+/src/.vs
+/src/NPasswordVault/bin
+/src/NPasswordVault/obj
