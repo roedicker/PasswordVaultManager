@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Mark Rödicker</Authors>
+    <Owners>Mark Rödicker</Owners>
+    <Copyright>Copyright © 2020 Mark Rödicker</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+</Project>

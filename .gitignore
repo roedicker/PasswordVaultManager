@@ -1,5 +1,7 @@
 *.suo
 *.user
-/src/.vs
-/src/NPasswordVault/bin
-/src/NPasswordVault/obj
+*.vs
+/src/PasswordVaultManager/bin
+/src/PasswordVaultManager/obj
+/src/PasswordVaultManager.Windows/bin
+/src/PasswordVaultManager.Windows/obj
