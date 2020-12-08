@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
+using System.Security;
 
 using Windows.Security.Credentials;
 
 using PasswordVaultManager.Models;
-using System.Security;
 
 namespace PasswordVaultManager.Windows.Managers
 {
   /// <summary>
   /// Defines the Windows password vault manager
   /// </summary>
-  public class WindowsPasswordVaulManager : IPasswordVaultManager
+  public class WindowsPasswordVaultManager : IPasswordVaultManager
   {
     /// <summary>
     /// Gets the Windows password vault
@@ -24,7 +24,7 @@ namespace PasswordVaultManager.Windows.Managers
     /// <summary>
     /// Creates a new instance of the Windows password vault manager
     /// </summary>
-    public WindowsPasswordVaulManager()
+    public WindowsPasswordVaultManager()
     {
       this.Vault = new PasswordVault();
     }
